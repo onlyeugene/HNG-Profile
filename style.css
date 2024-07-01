@@ -28,7 +28,7 @@ main {
 #goals li{
     text-align: start;
     list-style: square;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 #goals ul{
     text-align: start;
@@ -54,7 +54,7 @@ main {
     margin: 0.5em;
     text-decoration: none;
     color: #4CAF50;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 @media (max-width: 600px) {
