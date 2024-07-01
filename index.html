@@ -13,23 +13,26 @@
     <main>
         <section id="profile">
             <img id="profile-img" src="./assets/IMG_6275.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
-            <p data-testid="slackDisplayName">Eugene</p>
-            <p data-testid="slackEmail">eugeneokogun@gmail.com</p>
-            <p data-testid="currentTimeUTC">Current UTC Time: <span id="utc-time"></span></p>
-            <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+            <div id="profile_content">
+                <p data-testid="slackDisplayName">Slack Name: <span>Eugene</span></p>
+                <p data-testid="slackEmail">Slack Email: <span>eugeneokogun@gmail.com</span></p>
+                <p data-testid="currentTimeUTC">Current UTC Time: <span id="utc-time"></span></p>
+                <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+            </div>
+        </section>
+        <section id="goals">
+            <h2 data-testid="goals">Goals</h2>
+            <ul data-testid="goalsList">
+                <li>A thriving career in frontend design, contributing my values towards organizational growth.</li>
+                <li>Build a strong portfolio over the course of working on personal projects, professional work and diverse projects.</li>
+                <li>Get relevant and necessary professional certifications to improve my skills and knowledge to enable me give me best.</li>
+                <li>Be able to share my knowledge, through mentoring or teaching junior developers or people who have interest in frontend technology.</li>
+            </ul>
         </section>
         <section id="links">
             <a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
             <a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
             <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
-        </section>
-        <section id="goals">
-            <h2 data-testid="goals">Goals</h2>
-            <ul data-testid="goalsList">
-                <li>I should have tech related jobs</li>
-                <li>I should be able to build a website from scratch</li>
-                <li>I should be good at my craft</li>
-            </ul>
         </section>
     </main>
     <footer>
