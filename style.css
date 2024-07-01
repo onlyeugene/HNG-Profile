@@ -28,6 +28,9 @@ main {
     background: rgb(233, 221, 221); */
 }
 
+
+/* GOALS  */
+
 #goals{
     text-align: center;
     width: 100%;
@@ -69,6 +72,9 @@ main {
     gap: 1rem;
 }
 
+
+/* PROFILE  */
+
 #profile {
     text-align: center;
 }
@@ -81,25 +87,30 @@ main {
     align-items: start;
     justify-content: center;
 }
+
+
 #profile p{
     font-size: 16px;
     text-align: start;
     margin: 1em 2em;
 }
-#profile img {
+#profile_img {
     max-width: 100%;
     height: auto;
 }
 
-#utc-time{
-    font: 800;
-}
+
+
+/* LINKS  */
+
 #links a {
     margin: 0.5em;
     text-decoration: none;
     color: #4CAF50;
     /* font-size: 18px; */
 }
+
+
 
 @media (max-width: 600px) {
     body {
